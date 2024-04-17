@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main Menu</title>
+   
+    <style>
+        @font-face {
+            font-family: minecraft;
+            src: url(minecraft.otf);
+        }
+ .jazabbanafsh {
+ --glow-color: rgb(217, 176, 255);
+ --glow-spread-color: rgba(191, 123, 255, 0.781);
+ --enhanced-glow-color: rgb(231, 206, 255);
+ --btn-color: rgb(100, 61, 136);
+ border: .25em solid var(--glow-color);
+ padding: 1em 1em;
+ color: var(--glow-color);
+ font-size: 15px;
+ font-weight: bold;
+ background-color: var(--btn-color);
+ border-radius: 1em 0 0 1em;
+ outline: none;
+ box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 1em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+ text-shadow: 0 0 .5em var(--glow-color);
+ position: relative;
+ transition: all 0.3s;
+ position: absolute;
+ top:20px ;
+ left: 40px;
+ width: 130px;
+ z-index: 2;
+}
+
+.jazabbanafsh::after {
+ pointer-events: none;
+ content: "";
+ position: absolute;
+ top: 120%;
+ left: 0;
+ height: 100%;
+ width: 100%;
+ background-color: var(--glow-spread-color);
+ filter: blur(2em);
+ opacity: .7;
+ transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+}
+
+.jazabbanafsh:hover {
+ color: var(--btn-color);
+ background-color: var(--glow-color);
+ box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 2em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+}
+
+.jazabbanafsh:active {
+ box-shadow: 0 0 0.6em .25em var(--glow-color),
+        0 0 2.5em 2em var(--glow-spread-color),
+        inset 0 0 .5em .25em var(--glow-color);
+}
+.jazabbanafsh2 {
+ --glow-color: rgb(176, 185, 255);
+ --glow-spread-color: rgba(123, 145, 255, 0.781);
+ --enhanced-glow-color: rgb(206, 211, 255);
+ --btn-color: rgb(61, 62, 136);
+ border: .25em solid var(--glow-color);
+ padding: 1em 1em;
+ color: var(--glow-color);
+ font-size: 15px;
+ font-weight: bold;
+ background-color: var(--btn-color);
+ border-radius: 0 0 0 0;
+ outline: none;
+ box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 1em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+ text-shadow: 0 0 .5em var(--glow-color);
+ position: relative;
+ transition: all 0.3s;
+ position: absolute;
+ top:20px ;
+ left: 170px;
+ width: 130px;
+ z-index: 5;
+}
+
+.jazabbanafsh2::after {
+ pointer-events: none;
+ content: "";
+ position: absolute;
+ top: 120%;
+ left: 0;
+ height: 100%;
+ width: 100%;
+ background-color: var(--glow-spread-color);
+ filter: blur(2em);
+ opacity: .7;
+ transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+}
+
+.jazabbanafsh2:hover {
+ color: var(--btn-color);
+ background-color: var(--glow-color);
+ box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 2em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+}
+
+.jazabbanafsh2:active {
+ box-shadow: 0 0 0.6em .25em var(--glow-color),
+        0 0 2.5em 2em var(--glow-spread-color),
+        inset 0 0 .5em .25em var(--glow-color);
+}
+.jazabbanafsh3 {
+ --glow-color: rgb(176, 250, 255);
+ --glow-spread-color: rgba(123, 255, 255, 0.781);
+ --enhanced-glow-color: rgb(206, 254, 255);
+ --btn-color: rgb(61, 136, 133);
+ border: .25em solid var(--glow-color);
+ padding: 1em 1em;
+ color: var(--glow-color);
+ font-size: 15px;
+ font-weight: bold;
+ background-color: var(--btn-color);
+ border-radius: 0 1em 1em 0;
+ outline: none;
+ box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 1em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+ text-shadow: 0 0 .5em var(--glow-color);
+ position: relative;
+ transition: all 0.3s;
+ position: absolute;
+ top:20px ;
+ left: 300px;
+ width: 130px;
+ z-index: 2;
+}
+
+.jazabbanafsh3::after {
+ pointer-events: none;
+ content: "";
+ position: absolute;
+ top: 120%;
+ left: 0;
+ height: 100%;
+ width: 100%;
+ background-color: var(--glow-spread-color);
+ filter: blur(2em);
+ opacity: .7;
+ transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+}
+
+.jazabbanafsh3:hover {
+ color: var(--btn-color);
+ background-color: var(--glow-color);
+ box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 2em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+}
+
+.jazabbanafsh3:active {
+ box-shadow: 0 0 0.6em .25em var(--glow-color),
+        0 0 2.5em 2em var(--glow-spread-color),
+        inset 0 0 .5em .25em var(--glow-color);
+}
+#glass{
+/* From https://css.glass */
+background: rgba(188, 185, 185, 0.17);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.6px);
+-webkit-backdrop-filter: blur(3.6px);
+
+}
+body{
+       z-index: 2;
+}
+.glassz{
+z-index: 900;
+}
+    </style>
+<link rel="stylesheet" href="styls.css">
+<link rel="stylesheet" href="./bootstrap.css">
+</head>
+<body>
+  <div>
+    <a href="ranks.html">
+      <button class="jazabbanafsh">home</button>
+    </a>
+    <a href="gamemodes.html">
+      <button class="jazabbanafsh2">shop</button>
+    </a>
+    <a>
+      <button class="jazabbanafsh3">about us</button>
+    </a>
+
+  </div>
+  <div id="glass" class="glassz" style="height: 200px; width: 250px;  display: inline; position: absolute; top: 400px; left: 1200px;
+   transform: rotate(-69deg);">
+          <img src="VIP.png" alt="sdad" id="mmd" style="transform: rotate(80deg); z-index: 0;">
+  </div>
+  <div>
+
+  </div>
+<script> src="./jquery.com_jquery-3.7.1.slim.min.js" </script>
+<script> src="./bootstrap.bundle.js" </script>
+
+<h1 id="mainmenutitle">.</h1>
+<p id="yekamtozihat">.</p>
+</div>
+<div class="bottoms">
+    <div class="bottoms1"></div>
+    <div class="bottoms2"></div>
+</div>
+</body>
+</html>
