@@ -1,0 +1,45 @@
+#mainmenutitle {
+    margin-top: 80px;
+    font-family: minecraft;
+    color: gold;
+    text-align: center;
+}
+
+
+
+body {
+    background-color: #2e2a2f;
+    background-image: linear-gradient(90deg, #212121 0%, #212121 50%, #212121 100%);
+}
+
+#yekamtozihat {
+
+    color:darkorange;
+    text-align: center;
+    font-family: minecraft;
+    font-size: 20px;
+    padding-bottom: 1px;
+    line-height: 5px;
+}
+
+#profile {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: left;
+    display: inline;
+}
+
+#panelkarbari {
+
+    color: aqua;
+}
+
+#yekamtozihat2 {
+    padding-top: 1px;
+    color:darkorange;
+    text-align: center;
+    font-family: minecraft;
+    font-size: 20px;
+}
+
